@@ -6,7 +6,8 @@
 // @author       coty
 // @match        https://c.na7.visual.force.com/apex/Case_View*
 // @grant        none
-// @require http://code.jquery.com/jquery-latest.js
+// @require      http://code.jquery.com/jquery-latest.js
+// @updateURL    https://github.com/csutherl/random-userscripts/raw/master/Salesforce_Add-ons.user.js
 // ==/UserScript==
 
 // Grab the selector for the block I want to add buttons to

@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Case link interceptor
-// @namespace    http://tampermonkey.net/
+// @namespace    http://csutherl.github.io/
 // @version      0.1
 // @description  Script to intercept and change case link clicks to use salesforce instead of the portal
 // @author       coty
 // @match        https://access.redhat.com/*
 // @grant        none
+// @updateURL    https://github.com/csutherl/random-userscripts/raw/master/Case_link_interceptor.user.js
 // ==/UserScript==
 
 /* jshint -W097 */
