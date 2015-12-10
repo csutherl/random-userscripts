@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Case link interceptor
 // @namespace    http://csutherl.github.io/
-// @version      0.1
+// @version      0.2
 // @description  Script to intercept and change case link clicks to use salesforce instead of the portal
 // @author       coty
 // @match        https://access.redhat.com/*
@@ -11,9 +11,6 @@
 
 /* jshint -W097 */
 'use strict';
-
-// example target:
-// <a href="/support/cases/#/case/01508700">01508700</a>
 
 function interceptClickEvent(e) {
     var href;
@@ -31,7 +28,6 @@ function interceptClickEvent(e) {
         }
     }
 }
-
 
 // listen for link click events at the document level
 if (document.addEventListener) {
