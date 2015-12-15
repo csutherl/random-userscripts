@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Case link interceptor
 // @namespace    http://csutherl.github.io/
-// @version      0.2
+// @version      0.3
 // @description  Script to intercept and change case link clicks to use salesforce instead of the portal
 // @author       coty
 // @match        https://access.redhat.com/*
@@ -24,7 +24,7 @@ function interceptClickEvent(e) {
            //tell the browser not to respond to the link click
            e.preventDefault();
             
-           window.location.href = "https://c.na7.visual.force.com/apex/Case_View?sbstr=" + casenum;
+           window.open("https://c.na7.visual.force.com/apex/Case_View?sbstr=" + casenum);
         }
     }
 }
