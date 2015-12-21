@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Case link interceptor
 // @namespace    http://csutherl.github.io/
-// @version      0.3
+// @version      0.4
 // @description  Script to intercept and change case link clicks to use salesforce instead of the portal
 // @author       coty
 // @match        https://access.redhat.com/*
+// @match        https://bugzilla.redhat.com/*
 // @grant        none
 // @updateURL    https://github.com/csutherl/random-userscripts/raw/master/Case_link_interceptor.user.js
 // ==/UserScript==
@@ -18,7 +19,7 @@ function interceptClickEvent(e) {
     if (target.tagName === 'A') {
         href = target.getAttribute('href');
 
-        if (href.match('/support/cases/#/case/')) {
+        if (href.match('/support/cases/')) {
             var casenum = href.match('[0-9]+');
 
            //tell the browser not to respond to the link click
