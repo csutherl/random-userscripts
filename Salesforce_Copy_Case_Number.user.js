@@ -26,4 +26,11 @@ function copyToClipboard() {
     button.innerText = "Copy Case Number";
     button.onclick = copyToClipboard;
     document.body.appendChild(button);
+    
+    // Add hotkey for copying case number. ALT+SHIFT+C
+    window.addEventListener("keydown", function(event) {
+        if (event.altKey && event.shiftKey && event.keyCode == 67) {
+            copyToClipboard();
+        }
+    });
 })();
