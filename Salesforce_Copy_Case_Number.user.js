@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Salesforce Copy Case Number
 // @namespace    http://csutherl.github.io/
-// @version      0.1
+// @version      0.2
 // @description  Click button to copy Salesforce case number
 // @author       rbost
 // @match        https://c.na7.visual.force.com/apex/Case_View*
