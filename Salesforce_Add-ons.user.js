@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Script to add fancy buttons to save me few clicks! The @match only applies to URLs for the case view pages. Also, I am using jquery for the selector, but it isn't necessary as you can do the same thing in plain js; I just wanted to see if includes worked since this is my first userscript :D
 // @author       coty
-// @match        https://c.na7.visual.force.com/apex/Case_View*
+// @match        https://gss--c.na7.visual.force.com/apex/Case_View*
 // @grant        none
 // @require      http://code.jquery.com/jquery-latest.js
 // @updateURL    https://github.com/csutherl/random-userscripts/raw/master/Salesforce_Add-ons.user.js
