@@ -4,7 +4,7 @@
 // @version      0.2
 // @description  Click button to copy Salesforce case number
 // @author       rbost
-// @match        https://c.na7.visual.force.com/apex/Case_View*
+// @match        https://gss--c.na7.visual.force.com/apex/Case_View*
 // @grant        GM_setClipboard
 // @updateURL    https://github.com/csutherl/random-userscripts/raw/master/Salesforce_Copy_Case_Number.user.js
 // ==/UserScript==
