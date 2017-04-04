@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Salesforce Add-ons
 // @namespace    http://csutherl.github.io/
-// @version      0.1
+// @version      0.2
 // @description  Script to add fancy buttons to save me few clicks! The @match only applies to URLs for the case view pages. Also, I am using jquery for the selector, but it isn't necessary as you can do the same thing in plain js; I just wanted to see if includes worked since this is my first userscript :D
 // @author       coty
 // @match        https://gss--c.na7.visual.force.com/apex/Case_View*
