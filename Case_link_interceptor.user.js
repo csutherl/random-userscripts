@@ -6,6 +6,7 @@
 // @author       coty
 // @match        https://access.redhat.com/*
 // @match        https://bugzilla.redhat.com/*
+// @exclude      https://access.redhat.com/support/cases/internal/case/*
 // @grant        none
 // @updateURL    https://github.com/csutherl/random-userscripts/raw/master/Case_link_interceptor.user.js
 // ==/UserScript==
